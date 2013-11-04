@@ -33,7 +33,7 @@ boolean fnChanged = false;
 void setup()
 {
   pinMode(BUTTON_1, INPUT_PULLUP);           // set pin to input
-  pinMode(BUTTON_2, INPUT_PULLUP;           // set pin to input
+  pinMode(BUTTON_2, INPUT_PULLUP);           // set pin to input
 //  digitalWrite(BUTTON_1, HIGH);       // turn on pullup resistors
  // digitalWrite(BUTTON_2, HIGH);       // turn on pullup resistors
   
