@@ -16,6 +16,7 @@ REQUIREMENTS
 The SoOnCon badge code relies on two libraries, which can be retrieved from the URLs below:
 
 Bounce Library - http://playground.arduino.cc/code/bounce
+
 Adafruit NeoPixel Library: https://github.com/adafruit/Adafruit_NeoPixel
 
 **********
