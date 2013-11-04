@@ -9,6 +9,8 @@ Updates/information on the badge hardware can be found here:
 
 http://sooncon.ca/2013/10/sooncon-badge-hacking-workshop/
 
+The SoOnCon 2013 badge appears to the Arduino environment as an Arduino Leonardo.
+
 ************
 REQUIREMENTS
 ************
