@@ -33,7 +33,7 @@ boolean fnChanged = false;
 void setup()
 {
   pinMode(BUTTON_1, INPUT_PULLUP);           // set pin to input
-  pinMode(BUTTON_2, INPUT_PULLUP;           // set pin to input
+  pinMode(BUTTON_2, INPUT_PULLUP);           // set pin to input
 //  digitalWrite(BUTTON_1, HIGH);       // turn on pullup resistors
  // digitalWrite(BUTTON_2, HIGH);       // turn on pullup resistors
   
@@ -144,6 +144,9 @@ void rainbowCycle(uint8_t wait) {
       ledStrip.setPixelColor(i, Wheel(((i * 256 / ledStrip.numPixels()) + j) & 255));
     }
     ledStrip.show();
+    if(function != FN_RAINBOW) {
+      return;
+    }
     yield(wait);
   }
 }
